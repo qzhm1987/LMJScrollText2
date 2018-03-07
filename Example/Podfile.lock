@@ -1,0 +1,16 @@
+PODS:
+  - LMJScrollTextView2 (0.1.0)
+
+DEPENDENCIES:
+  - LMJScrollTextView2 (from `../`)
+
+EXTERNAL SOURCES:
+  LMJScrollTextView2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LMJScrollTextView2: e152c04d615d82325359bc496ee86b1b20982510
+
+PODFILE CHECKSUM: 135cf5258ffb2113fac309e9f8b9238bc3182045
+
+COCOAPODS: 1.2.1

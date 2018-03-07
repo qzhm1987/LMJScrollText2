@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C30168371C2990E6553478EE3D557AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		24E2426A6BDD885EDFEC5AF44CB92BC4 /* Pods-LMJScrollTextView2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 701AC7D57EA279DA6DFDFCC3AB76C0E5 /* Pods-LMJScrollTextView2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ACA8B23204FEBA7003A9E2E /* LMJScrollTextView2.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACA8B21204FEBA6003A9E2E /* LMJScrollTextView2.h */; };
+		2ACA8B24204FEBA7003A9E2E /* LMJScrollTextView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA8B22204FEBA7003A9E2E /* LMJScrollTextView2.m */; };
+		4BAA1A2491F623C5E4017B8841F674AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5BA2A7FF1E4EC3861BB3AE7DFB303942 /* Pods-LMJScrollTextView2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D105FC8E6383932C47C6265A1919CB /* Pods-LMJScrollTextView2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC86ABE48BE69F4AD58CDC90D56E52B /* LMJScrollTextView2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E744965B9887E5A5F70204EF667445E /* LMJScrollTextView2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E044035DBFFC85E1BD631A1EC1F7225 /* Pods-LMJScrollTextView2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB4C62F379B1DE18A510F365CAFFB56 /* Pods-LMJScrollTextView2_Tests-dummy.m */; };
+		B8F6122EAC94883978DACB09B9AFFF64 /* Pods-LMJScrollTextView2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E989DC4E40A4A3926B9AD760821E3C8C /* Pods-LMJScrollTextView2_Example-dummy.m */; };
+		C7A61452CD111E59C5844C46BC9A308B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F0DA3F77AE082E70D9C27FC247B00CBB /* LMJScrollTextView2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B131269A8E4072B14BB72F205B3ED1 /* LMJScrollTextView2-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E62BF8450201A5028DA08D8A9429896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85C168B7AB4E689673AD422129D54A6E;
+			remoteInfo = LMJScrollTextView2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032734018BCC2C73DF541D9D45F16BF8 /* Pods-LMJScrollTextView2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMJScrollTextView2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		043C5A3187083B35401357AD3357A989 /* Pods-LMJScrollTextView2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMJScrollTextView2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		09BF890DDFD6ADD8510071616A194D17 /* LMJScrollTextView2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMJScrollTextView2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B52A073B27F561F6CCAAD903A5A343 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18049AB59D9F18B88B7AA7BBDB1677D6 /* Pods-LMJScrollTextView2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMJScrollTextView2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		229ACDA73C055267C7847ACCE09B01B8 /* Pods_LMJScrollTextView2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMJScrollTextView2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		236B5A9658D513FE32B23BD76C4BD45D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACA8B21204FEBA6003A9E2E /* LMJScrollTextView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJScrollTextView2.h; sourceTree = "<group>"; };
+		2ACA8B22204FEBA7003A9E2E /* LMJScrollTextView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJScrollTextView2.m; sourceTree = "<group>"; };
+		304D01AF28593219FCDD9106B98BDEAE /* LMJScrollTextView2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LMJScrollTextView2.modulemap; sourceTree = "<group>"; };
+		4699502AFFDE22FFF59F7D766CA76915 /* Pods-LMJScrollTextView2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMJScrollTextView2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CBDF36C94EF002085D9DD7AC235153D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FFC853015B81373C7CD7878C6C6024 /* Pods-LMJScrollTextView2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMJScrollTextView2_Example-resources.sh"; sourceTree = "<group>"; };
+		64DBF62638564D3D3EFFA22946F5D591 /* LMJScrollTextView2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMJScrollTextView2.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		701AC7D57EA279DA6DFDFCC3AB76C0E5 /* Pods-LMJScrollTextView2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LMJScrollTextView2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7E744965B9887E5A5F70204EF667445E /* LMJScrollTextView2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMJScrollTextView2-umbrella.h"; sourceTree = "<group>"; };
+		8A3C1385A2BCCA0767BAF68C03AD6A01 /* Pods-LMJScrollTextView2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMJScrollTextView2_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8A995F4B46D84C0B94F7856383312424 /* Pods-LMJScrollTextView2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMJScrollTextView2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8B85FBE701349CC2EB4EA6BECE7F3998 /* Pods-LMJScrollTextView2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMJScrollTextView2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BAF891EF510B845D37B76D281136F32 /* Pods-LMJScrollTextView2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LMJScrollTextView2_Tests.modulemap"; sourceTree = "<group>"; };
+		9CE2835B4117A708836DA260BE351C32 /* Pods-LMJScrollTextView2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LMJScrollTextView2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A75E6343398DD389004C9D4384D525E5 /* Pods-LMJScrollTextView2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LMJScrollTextView2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEB4C62F379B1DE18A510F365CAFFB56 /* Pods-LMJScrollTextView2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMJScrollTextView2_Tests-dummy.m"; sourceTree = "<group>"; };
+		CD5BD30E6396064E6E092E45F56CF019 /* Pods-LMJScrollTextView2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMJScrollTextView2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D3B131269A8E4072B14BB72F205B3ED1 /* LMJScrollTextView2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMJScrollTextView2-dummy.m"; sourceTree = "<group>"; };
+		D3F2E6000D5325BA2F66AE7B77E50AA5 /* Pods_LMJScrollTextView2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMJScrollTextView2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D105FC8E6383932C47C6265A1919CB /* Pods-LMJScrollTextView2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LMJScrollTextView2_Example-umbrella.h"; sourceTree = "<group>"; };
+		DAA9875A5899D11152AB9767E91C762E /* Pods-LMJScrollTextView2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LMJScrollTextView2_Example.modulemap"; sourceTree = "<group>"; };
+		E89BA0189AE0D7FBE5BF726E9593C1E4 /* LMJScrollTextView2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMJScrollTextView2-prefix.pch"; sourceTree = "<group>"; };
+		E989DC4E40A4A3926B9AD760821E3C8C /* Pods-LMJScrollTextView2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMJScrollTextView2_Example-dummy.m"; sourceTree = "<group>"; };
+		EF1F7CA0C19DE726347EAE4DEE934C33 /* Pods-LMJScrollTextView2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMJScrollTextView2_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110231728A15B1CD146BE995A8206AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAA1A2491F623C5E4017B8841F674AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9128CADA200EB5EFCE9DCE94DE24A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A61452CD111E59C5844C46BC9A308B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D263FEAFE5CD3E82E1C1107D4FD7E374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C30168371C2990E6553478EE3D557AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEF3E73A4A82D849A2202AE7038C34E /* Pods-LMJScrollTextView2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBDF36C94EF002085D9DD7AC235153D /* Info.plist */,
+				9BAF891EF510B845D37B76D281136F32 /* Pods-LMJScrollTextView2_Tests.modulemap */,
+				A75E6343398DD389004C9D4384D525E5 /* Pods-LMJScrollTextView2_Tests-acknowledgements.markdown */,
+				4699502AFFDE22FFF59F7D766CA76915 /* Pods-LMJScrollTextView2_Tests-acknowledgements.plist */,
+				BEB4C62F379B1DE18A510F365CAFFB56 /* Pods-LMJScrollTextView2_Tests-dummy.m */,
+				8A3C1385A2BCCA0767BAF68C03AD6A01 /* Pods-LMJScrollTextView2_Tests-frameworks.sh */,
+				EF1F7CA0C19DE726347EAE4DEE934C33 /* Pods-LMJScrollTextView2_Tests-resources.sh */,
+				701AC7D57EA279DA6DFDFCC3AB76C0E5 /* Pods-LMJScrollTextView2_Tests-umbrella.h */,
+				18049AB59D9F18B88B7AA7BBDB1677D6 /* Pods-LMJScrollTextView2_Tests.debug.xcconfig */,
+				CD5BD30E6396064E6E092E45F56CF019 /* Pods-LMJScrollTextView2_Tests.release.xcconfig */,
+			);
+			name = "Pods-LMJScrollTextView2_Tests";
+			path = "Target Support Files/Pods-LMJScrollTextView2_Tests";
+			sourceTree = "<group>";
+		};
+		3044FA18FE99F8DD88673022147E7BD2 /* LMJScrollTextView2 */ = {
+			isa = PBXGroup;
+			children = (
+				C18FA23A09306E841632E77BC471CDBB /* Classes */,
+			);
+			path = LMJScrollTextView2;
+			sourceTree = "<group>";
+		};
+		5349F4ACE873E251B92B61F32198B360 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11B52A073B27F561F6CCAAD903A5A343 /* Info.plist */,
+				304D01AF28593219FCDD9106B98BDEAE /* LMJScrollTextView2.modulemap */,
+				64DBF62638564D3D3EFFA22946F5D591 /* LMJScrollTextView2.xcconfig */,
+				D3B131269A8E4072B14BB72F205B3ED1 /* LMJScrollTextView2-dummy.m */,
+				E89BA0189AE0D7FBE5BF726E9593C1E4 /* LMJScrollTextView2-prefix.pch */,
+				7E744965B9887E5A5F70204EF667445E /* LMJScrollTextView2-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LMJScrollTextView2";
+			sourceTree = "<group>";
+		};
+		76A2ED804F1671E3462DFB68EC7E7F6C /* Pods-LMJScrollTextView2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				236B5A9658D513FE32B23BD76C4BD45D /* Info.plist */,
+				DAA9875A5899D11152AB9767E91C762E /* Pods-LMJScrollTextView2_Example.modulemap */,
+				9CE2835B4117A708836DA260BE351C32 /* Pods-LMJScrollTextView2_Example-acknowledgements.markdown */,
+				043C5A3187083B35401357AD3357A989 /* Pods-LMJScrollTextView2_Example-acknowledgements.plist */,
+				E989DC4E40A4A3926B9AD760821E3C8C /* Pods-LMJScrollTextView2_Example-dummy.m */,
+				032734018BCC2C73DF541D9D45F16BF8 /* Pods-LMJScrollTextView2_Example-frameworks.sh */,
+				54FFC853015B81373C7CD7878C6C6024 /* Pods-LMJScrollTextView2_Example-resources.sh */,
+				D8D105FC8E6383932C47C6265A1919CB /* Pods-LMJScrollTextView2_Example-umbrella.h */,
+				8B85FBE701349CC2EB4EA6BECE7F3998 /* Pods-LMJScrollTextView2_Example.debug.xcconfig */,
+				8A995F4B46D84C0B94F7856383312424 /* Pods-LMJScrollTextView2_Example.release.xcconfig */,
+			);
+			name = "Pods-LMJScrollTextView2_Example";
+			path = "Target Support Files/Pods-LMJScrollTextView2_Example";
+			sourceTree = "<group>";
+		};
+		76A71BBF157670CDF26872076DA0270E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CFC396B2E33233A237099EBA54CC500 /* LMJScrollTextView2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				76A71BBF157670CDF26872076DA0270E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AAFE48F91A2971AAFA6F2FD4917C07D4 /* Products */,
+				D45457BEA4FB62C59F986D3B2573B324 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9CFC396B2E33233A237099EBA54CC500 /* LMJScrollTextView2 */ = {
+			isa = PBXGroup;
+			children = (
+				3044FA18FE99F8DD88673022147E7BD2 /* LMJScrollTextView2 */,
+				5349F4ACE873E251B92B61F32198B360 /* Support Files */,
+			);
+			name = LMJScrollTextView2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AAFE48F91A2971AAFA6F2FD4917C07D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09BF890DDFD6ADD8510071616A194D17 /* LMJScrollTextView2.framework */,
+				229ACDA73C055267C7847ACCE09B01B8 /* Pods_LMJScrollTextView2_Example.framework */,
+				D3F2E6000D5325BA2F66AE7B77E50AA5 /* Pods_LMJScrollTextView2_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C18FA23A09306E841632E77BC471CDBB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2ACA8B21204FEBA6003A9E2E /* LMJScrollTextView2.h */,
+				2ACA8B22204FEBA7003A9E2E /* LMJScrollTextView2.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D45457BEA4FB62C59F986D3B2573B324 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A2ED804F1671E3462DFB68EC7E7F6C /* Pods-LMJScrollTextView2_Example */,
+				1AEF3E73A4A82D849A2202AE7038C34E /* Pods-LMJScrollTextView2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		162355BE2E8243022B40D561BC574E76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA2A7FF1E4EC3861BB3AE7DFB303942 /* Pods-LMJScrollTextView2_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68378E37FA96A74CD14AFF2FCE8E9483 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E2426A6BDD885EDFEC5AF44CB92BC4 /* Pods-LMJScrollTextView2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67E3A6458E95E9CCCA552E4FFBF010A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACA8B23204FEBA7003A9E2E /* LMJScrollTextView2.h in Headers */,
+				6BC86ABE48BE69F4AD58CDC90D56E52B /* LMJScrollTextView2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56F849586173EB9C49AAB33CA04FD883 /* Pods-LMJScrollTextView2_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4C70326E0306F7B3F64DEAE1A4BB2E /* Build configuration list for PBXNativeTarget "Pods-LMJScrollTextView2_Example" */;
+			buildPhases = (
+				B0B0460FC0206AD8FC317C373E62E486 /* Sources */,
+				CC9128CADA200EB5EFCE9DCE94DE24A7 /* Frameworks */,
+				162355BE2E8243022B40D561BC574E76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D906E8F1C963E60086CD5F9108924A11 /* PBXTargetDependency */,
+			);
+			name = "Pods-LMJScrollTextView2_Example";
+			productName = "Pods-LMJScrollTextView2_Example";
+			productReference = 229ACDA73C055267C7847ACCE09B01B8 /* Pods_LMJScrollTextView2_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85C168B7AB4E689673AD422129D54A6E /* LMJScrollTextView2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3262A6B080D309EAA4D2821F6498158 /* Build configuration list for PBXNativeTarget "LMJScrollTextView2" */;
+			buildPhases = (
+				1C6EEED6FD09E52E5835751D2AB76BEE /* Sources */,
+				110231728A15B1CD146BE995A8206AC7 /* Frameworks */,
+				A67E3A6458E95E9CCCA552E4FFBF010A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMJScrollTextView2;
+			productName = LMJScrollTextView2;
+			productReference = 09BF890DDFD6ADD8510071616A194D17 /* LMJScrollTextView2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D50B486931BCA28ACFD68CF7DFCDD8CA /* Pods-LMJScrollTextView2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22E394D0AA4B739B76BB5F1F330B39F /* Build configuration list for PBXNativeTarget "Pods-LMJScrollTextView2_Tests" */;
+			buildPhases = (
+				BC21FD54754D1D750E5F22CEEA437392 /* Sources */,
+				D263FEAFE5CD3E82E1C1107D4FD7E374 /* Frameworks */,
+				68378E37FA96A74CD14AFF2FCE8E9483 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LMJScrollTextView2_Tests";
+			productName = "Pods-LMJScrollTextView2_Tests";
+			productReference = D3F2E6000D5325BA2F66AE7B77E50AA5 /* Pods_LMJScrollTextView2_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AAFE48F91A2971AAFA6F2FD4917C07D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C168B7AB4E689673AD422129D54A6E /* LMJScrollTextView2 */,
+				56F849586173EB9C49AAB33CA04FD883 /* Pods-LMJScrollTextView2_Example */,
+				D50B486931BCA28ACFD68CF7DFCDD8CA /* Pods-LMJScrollTextView2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6EEED6FD09E52E5835751D2AB76BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DA3F77AE082E70D9C27FC247B00CBB /* LMJScrollTextView2-dummy.m in Sources */,
+				2ACA8B24204FEBA7003A9E2E /* LMJScrollTextView2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B0460FC0206AD8FC317C373E62E486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F6122EAC94883978DACB09B9AFFF64 /* Pods-LMJScrollTextView2_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC21FD54754D1D750E5F22CEEA437392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E044035DBFFC85E1BD631A1EC1F7225 /* Pods-LMJScrollTextView2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D906E8F1C963E60086CD5F9108924A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LMJScrollTextView2;
+			target = 85C168B7AB4E689673AD422129D54A6E /* LMJScrollTextView2 */;
+			targetProxy = 3E62BF8450201A5028DA08D8A9429896 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		355BEF78E7A9AC839BE9372FD2683E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A995F4B46D84C0B94F7856383312424 /* Pods-LMJScrollTextView2_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LMJScrollTextView2_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LMJScrollTextView2_Example/Pods-LMJScrollTextView2_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LMJScrollTextView2_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9075EFB7EC63B4282471540ED6B57879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5BD30E6396064E6E092E45F56CF019 /* Pods-LMJScrollTextView2_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LMJScrollTextView2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LMJScrollTextView2_Tests/Pods-LMJScrollTextView2_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LMJScrollTextView2_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2CE3B4A0D2302CA751CFE93E145D2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DBF62638564D3D3EFFA22946F5D591 /* LMJScrollTextView2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LMJScrollTextView2/LMJScrollTextView2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMJScrollTextView2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LMJScrollTextView2/LMJScrollTextView2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LMJScrollTextView2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E486FB76AA092C685C8F7C69DD80E084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DBF62638564D3D3EFFA22946F5D591 /* LMJScrollTextView2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LMJScrollTextView2/LMJScrollTextView2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMJScrollTextView2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LMJScrollTextView2/LMJScrollTextView2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LMJScrollTextView2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED655716390AEBC241591C1635454F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18049AB59D9F18B88B7AA7BBDB1677D6 /* Pods-LMJScrollTextView2_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LMJScrollTextView2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LMJScrollTextView2_Tests/Pods-LMJScrollTextView2_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LMJScrollTextView2_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3E5801FBE3D0219868FC4A7F2D441A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B85FBE701349CC2EB4EA6BECE7F3998 /* Pods-LMJScrollTextView2_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LMJScrollTextView2_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LMJScrollTextView2_Example/Pods-LMJScrollTextView2_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LMJScrollTextView2_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22E394D0AA4B739B76BB5F1F330B39F /* Build configuration list for PBXNativeTarget "Pods-LMJScrollTextView2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED655716390AEBC241591C1635454F67 /* Debug */,
+				9075EFB7EC63B4282471540ED6B57879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4C70326E0306F7B3F64DEAE1A4BB2E /* Build configuration list for PBXNativeTarget "Pods-LMJScrollTextView2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E5801FBE3D0219868FC4A7F2D441A4 /* Debug */,
+				355BEF78E7A9AC839BE9372FD2683E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3262A6B080D309EAA4D2821F6498158 /* Build configuration list for PBXNativeTarget "LMJScrollTextView2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CE3B4A0D2302CA751CFE93E145D2B2 /* Debug */,
+				E486FB76AA092C685C8F7C69DD80E084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

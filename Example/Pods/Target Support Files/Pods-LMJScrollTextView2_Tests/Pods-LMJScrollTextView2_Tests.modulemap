@@ -1,0 +1,6 @@
+framework module Pods_LMJScrollTextView2_Tests {
+  umbrella header "Pods-LMJScrollTextView2_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

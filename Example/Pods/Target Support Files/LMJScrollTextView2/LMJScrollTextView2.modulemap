@@ -1,0 +1,6 @@
+framework module LMJScrollTextView2 {
+  umbrella header "LMJScrollTextView2-umbrella.h"
+
+  export *
+  module * { export * }
+}
